@@ -1,99 +1,63 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    
-    <title> Food, LLC </title>
-    
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/styles.css">
-  </head>
+#header-nav {
+    background-color: #999999;
+    border-radius: 0;
+    border: 0;    
+    border: solid black 2px;
+    margin-bottom: 0;
+}
 
+#menu-title{
+    margin-top: 50px ;
+}
+.navbar-brand a:hover, .navbar-brand a:focus{
+   text-decoration: none;
+}
+.navbar-brand{
+    padding-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 0;
+    color: black;
+}
+.navbar-brand h1{
+    color: black;
+    font-size: 1.5em;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 20px;
+}
 
-<!--navigation bar-->
-<body>
-  <header>
-    <nav id="header-nav" class="navbar navbar-default">
-      <div class="container">
-        <div class="navbar-header">
-          <div class="navbar-brand">
-            <a href="index.html"><h1>Food,LLC</h1></a>
-          </div>
+#nav-list a {
+    text-align: center;
+    color: black;
+    font-weight: 80;
+    background-color: #AAA5A5;
+}
 
-          <!--button code-->
+#nav-list {
+    margin-top: 10px;
+}
 
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-        </div>
+#nav-list a:hover {
+    background-color: lightyellow;   
+}
 
-        <!--nav menu buttons-->
+.text-center {
+    position: relative;
+    margin-top: 20px;
+    color: black;
+}
 
-        <div  id="collapsable-nav" class="collapse navbar-collapse">
-          <ul id="nav-list" class="nav navbar-nav navbar-right visible-xs">
-            <li>
-              <a href="#chicken">Chicken</a>
-            </li>
-            <li>
-              <a href="#beef">Beef</a>
-            </li>
-            <li>
-              <a href="#sushi">Sushi</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-  </header>
- 
+#collapsable-nav{
+    font-size: 1.5em;
+}
 
-<!--menu categories-->
-<div id="main content" class="container">
-   <h2 id="menu-title" class="text-center"> Our Menu
-   </h2>
-   <section class="row">
+.navbar-default .navbar-collapse{
+    margin-top: 0px;
+    border: 0px;
+}
 
-    <div class="col-lg-12 col-md-12 col-xs-12">
-      <div id="food" class="container-fluid">
-        <h3 class="text-center" id="chicken">Chicken </h3>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed euismod nisi porta lorem mollis. Faucibus pulvinar elementum integer enim neque volutpat ac. Massa tempor nec feugiat nisl pretium fusce. A diam sollicitudin tempor id. Nunc lobortis mattis aliquam faucibus purus in massa. Pellentesque massa placerat duis ultricies lacus. In hendrerit gravida rutrum quisque non tellus. Congue eu consequat ac felis donec et odio. Sit amet nisl suscipit adipiscing bibendum est ultricies integer quis. Lobortis elementum nibh tellus molestie nunc non blandit massa. Integer feugiat scelerisque varius morbi. In aliquam sem fringilla ut morbi tincidunt. Sed faucibus turpis in eu mi bibendum neque egestas. Volutpat est velit egestas dui id ornare arcu. Ultrices gravida dictum fusce ut placerat. Mattis nunc sed blandit libero volutpat sed cras ornare. Ipsum dolor sit amet consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed euismod nisi porta lorem mollis. Faucibus pulvinar elementum integer enim neque volutpat ac. Massa tempor nec feugiat nisl pretium fusce. A diam sollicitudin tempor id. Nunc lobortis mattis aliquam faucibus purus in massa. Pellentesque massa placerat duis ultricies lacus. In hendrerit gravida rutrum quisque non tellus. Congue eu consequat ac felis donec et odio. Sit amet nisl suscipit adipiscing bibendum est ultricies integer quis. Lobortis elementum nibh tellus molestie nunc non blandit massa. Integer feugiat scelerisque varius morbi. In aliquam sem fringilla ut morbi tincidunt. Sed faucibus turpis in eu mi bibendum neque egestas. Volutpat est velit egestas dui id ornare arcu. Ultrices gravida dictum fusce ut placerat. Mattis nunc sed blandit libero volutpat sed cras ornare. Ipsum dolor sit amet consectetur adipiscing elit.
-        <a href="#top">back to top</a>
-      </p>
-    </div>
-
-
-    <div class="col-lg-12 col-md-12 col-xs-12">
-      <div id="food" class="container-fluid">
-        <h3 class="text-center" id="beef">Beef </h3>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed euismod nisi porta lorem mollis. Faucibus pulvinar elementum integer enim neque volutpat ac. Massa tempor nec feugiat nisl pretium fusce. A diam sollicitudin tempor id. Nunc lobortis mattis aliquam faucibus purus in massa. Pellentesque massa placerat duis ultricies lacus. In hendrerit gravida rutrum quisque non tellus. Congue eu consequat ac felis donec et odio. Sit amet nisl suscipit adipiscing bibendum est ultricies integer quis. Lobortis elementum nibh tellus molestie nunc non blandit massa. Integer feugiat scelerisque varius morbi. In aliquam sem fringilla ut morbi tincidunt. Sed faucibus turpis in eu mi bibendum neque egestas. Volutpat est velit egestas dui id ornare arcu. Ultrices gravida dictum fusce ut placerat. Mattis nunc sed blandit libero volutpat sed cras ornare. Ipsum dolor sit amet consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed euismod nisi porta lorem mollis. Faucibus pulvinar elementum integer enim neque volutpat ac. Massa tempor nec feugiat nisl pretium fusce. A diam sollicitudin tempor id. Nunc lobortis mattis aliquam faucibus purus in massa. Pellentesque massa placerat duis ultricies lacus. In hendrerit gravida rutrum quisque non tellus. Congue eu consequat ac felis donec et odio. Sit amet nisl suscipit adipiscing bibendum est ultricies integer quis. Lobortis elementum nibh tellus molestie nunc non blandit massa. Integer feugiat scelerisque varius morbi. In aliquam sem fringilla ut morbi tincidunt. Sed faucibus turpis in eu mi bibendum neque egestas. Volutpat est velit egestas dui id ornare arcu. Ultrices gravida dictum fusce ut placerat. Mattis nunc sed blandit libero volutpat sed cras ornare. Ipsum dolor sit amet consectetur adipiscing elit.
-        <a href="#top">back to top</a>
-      </p>
-    </div>
-
-
-    <div class="col-lg-12 col-md-12 col-xs-12">
-      <div id="food" class="container-fluid">
-        <h3 class="text-center" id="sushi">Sushi </h3>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed euismod nisi porta lorem mollis. Faucibus pulvinar elementum integer enim neque volutpat ac. Massa tempor nec feugiat nisl pretium fusce. A diam sollicitudin tempor id. Nunc lobortis mattis aliquam faucibus purus in massa. Pellentesque massa placerat duis ultricies lacus. In hendrerit gravida rutrum quisque non tellus. Congue eu consequat ac felis donec et odio. Sit amet nisl suscipit adipiscing bibendum est ultricies integer quis. Lobortis elementum nibh tellus molestie nunc non blandit massa. Integer feugiat scelerisque varius morbi. In aliquam sem fringilla ut morbi tincidunt. Sed faucibus turpis in eu mi bibendum neque egestas. Volutpat est velit egestas dui id ornare arcu. Ultrices gravida dictum fusce ut placerat. Mattis nunc sed blandit libero volutpat sed cras ornare. Ipsum dolor sit amet consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed euismod nisi porta lorem mollis. Faucibus pulvinar elementum integer enim neque volutpat ac. Massa tempor nec feugiat nisl pretium fusce. A diam sollicitudin tempor id. Nunc lobortis mattis aliquam faucibus purus in massa. Pellentesque massa placerat duis ultricies lacus. In hendrerit gravida rutrum quisque non tellus. Congue eu consequat ac felis donec et odio. Sit amet nisl suscipit adipiscing bibendum est ultricies integer quis. Lobortis elementum nibh tellus molestie nunc non blandit massa. Integer feugiat scelerisque varius morbi. In aliquam sem fringilla ut morbi tincidunt. Sed faucibus turpis in eu mi bibendum neque egestas. Volutpat est velit egestas dui id ornare arcu. Ultrices gravida dictum fusce ut placerat. Mattis nunc sed blandit libero volutpat sed cras ornare. Ipsum dolor sit amet consectetur adipiscing elit.
-        <a href="#top">back to top</a>
-      </p>
-    </div>
-   </section>
-</div>
-
-
-  <!-- jQuery (Bootstrap JS plugins depend on it) -->
-  <script src="js/jquery-1.11.3.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/script.js"></script>
-</body>
-</html>
+#food{
+    position: relative;
+    margin: 20px;
+    background-color: #AAA5A5;
 
