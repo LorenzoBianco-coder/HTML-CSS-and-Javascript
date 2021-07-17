@@ -1,6 +1,12 @@
 ## HTML-CSS-and-Javascript course on Coursera
 
-You can use the [editor on GitHub](https://github.com/LorenzoBianco-coder/coursera-test/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+Link for Module 2 Solution [Module 2 solution](https://github.com/LorenzoBianco-coder/coursera-test/edit/main/README.md) 
+
+Link for Module 3 Solution [Module 2 solution](https://github.com/LorenzoBianco-coder/coursera-test/edit/main/README.md) 
+
+Link for Module 4 Solution [Module 2 solution](https://github.com/LorenzoBianco-coder/coursera-test/edit/main/README.md) 
+
+Link for Module 5 Solution [Module 2 solution](https://github.com/LorenzoBianco-coder/coursera-test/edit/main/README.md) 
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
